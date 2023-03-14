@@ -29,6 +29,7 @@ header {
 nav {
     background-color: lightskyblue;
     height: 50px;
+    border-bottom: 1px solid black;
 }
 
 nav ul li {
@@ -39,4 +40,49 @@ nav ul li {
 
 .clearfix {
     clear: both;
+}
+
+.content {
+    float: left;
+    width: 80%;
+    min-height: 400px;
+    background-color: green;
+    padding: 40px;
+}
+
+.article {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.article:first-child {
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.article h2 {
+    font-size: 25px;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    min-height: 400px;
+    background-color: orange;
+    padding: 10px;
+}
+
+aside .input-text {
+    width: 110px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
 }
